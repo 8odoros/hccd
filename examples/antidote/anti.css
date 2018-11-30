@@ -1,0 +1,59 @@
+.card {
+	margin: 0.5mm;
+	border-style: solid;
+	border-width: 0.8mm;
+	border-color: black;
+	border-radius: 3mm;
+	width: 63mm;
+	height: 88mm;
+	position: relative;
+	
+	/* css pattern */
+	background-color:silver;
+background-image: 
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size:100px 50px;
+}
+
+.avatarWrap{
+	text-align: center;
+	position: absolute;
+	width: 100%;	
+	top: 10mm;
+}
+
+.avatar {
+	margin: 1.1mm 0 1.1mm 0;
+	width: 40mm;
+	height: 40mm;
+	box-shadow: 0 0 10mm 5mm #fff;
+	background-color:white;
+}
+
+.name {
+	clear: both;
+	position: absolute;
+	top: 55mm;
+	text-align: center;
+	width: 100%;
+	margin-top: 2mm;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 17pt;
+	height: 10mm;
+    text-shadow: -1pt 0 black, 0 1pt black, 1pt 0 black, 0 -1pt black;
+}
+.thumb{
+	position: absolute;
+	width: 10mm;
+	height: 10mm;
+	background-color:white;	
+	margin:1mm;
+	border-radius: 2mm;
+	bottom:0;
+	
+}
